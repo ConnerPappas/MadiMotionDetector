@@ -1,0 +1,2 @@
+# MadiMotionDetector
+Motion detector for my friend Madi, made with an Arduino Uno. Uses two lights to inform the user whether they are the first person to enter a room or not. Motion is detected utilizing a PIR sensor. There is a 10 second buffer upon power up so the user isn't setting off the first alarm, and a 5-25 second check between detections so the same person isn't setting off the second alarm. The 5-25 second buffer is changed by a potentiometer feeding into the analog input.
